@@ -13,6 +13,7 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Class" Type="Folder">
 			<Item Name="OsciloscopeClass.lvclass" Type="LVClass" URL="../Class/OsciloscopeClass/OsciloscopeClass.lvclass"/>
+			<Item Name="Tektronicks.lvclass" Type="LVClass" URL="../Class/Tektroniks/Tektronicks.lvclass"/>
 		</Item>
 		<Item Name="Osciloscope Module" Type="Folder">
 			<Item Name="Osciloscope.lvlib" Type="Library" URL="../Libraries/Osciloscope/Osciloscope.lvlib"/>
@@ -98,6 +99,9 @@
 				<Item Name="Wait at Rendezvous.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/rendezvs.llb/Wait at Rendezvous.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 				<Item Name="Get LV Class Name.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Name.vi"/>
+			</Item>
+			<Item Name="instr.lib" Type="Folder">
+				<Item Name="Tektronix TDS 200 1000 2000 Series.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Tektronix TDS 200 1000 2000 Series/Tektronix TDS 200 1000 2000 Series.lvlib"/>
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
