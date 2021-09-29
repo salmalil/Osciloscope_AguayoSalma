@@ -21,15 +21,6 @@
 			<Property Name="NI.ClassItem.Property.LongName" Type="Str">Com Port</Property>
 			<Property Name="NI.ClassItem.Property.ShortName" Type="Str">Com Port</Property>
 			<Property Name="NI.ClassItem.Property.SortKey" Type="Int">-1</Property>
-			<Item Name="InitializePort.vi" Type="VI" URL="../InitializePort.vi">
-				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%P!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$J!=!!?!!!;'%^T9WFM&lt;X.D&lt;X"F1WRB=X-O&lt;(:D&lt;'&amp;T=Q!!&amp;%^T9WFM&lt;X.D&lt;X"F1WRB=X-A&lt;X6U!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!$B!=!!?!!!;'%^T9WFM&lt;X.D&lt;X"F1WRB=X-O&lt;(:D&lt;'&amp;T=Q!!%U^T9WFM&lt;X.D&lt;X"F1WRB=X-A;7Y!6!$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"!!%!!=#!!"Y!!!.#!!!!!!!!!!!!!#.#Q!!!!!!!!!!!!!!!!!!!!!!!!A!!!!!!!!!!!!!!*!!!!!!!1!)!!!!!!</Property>
-				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-				<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
-				<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
-				<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
-				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-				<Property Name="NI.ClassItem.State" Type="Int">1342710272</Property>
-			</Item>
 			<Item Name="Read Com Port.vi" Type="VI" URL="../Read Com Port.vi">
 				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!')!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!"Y!.`````]!"#!!A!!!!!!"!!1!!!!"!!!!!!!!!#Z!=!!/"5FO=X2S!!%!"3!!A!!!!!!"!!1!!!!"!!!!!!!!#%.P&lt;3"1&lt;X*U!!![1(!!(A!!'BB0=W.J&lt;'^T9W^Q:5.M98.T,GRW9WRB=X-!!"20=W.J&lt;'^T9W^Q:5.M98.T)'^V&gt;!!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!Y1(!!(A!!'BB0=W.J&lt;'^T9W^Q:5.M98.T,GRW9WRB=X-!!".0=W.J&lt;'^T9W^Q:5.M98.T)'FO!'%!]!!-!!-!"!!'!!=!"!!%!!1!"!!)!!1!"!!*!A!!?!!!$1A!!!!!!!!*!!!!$1M!!!!!!!!!!!!!!!!!!!!!!!!)!!!!!!!!!!!!!!!1!!!.!!!!$!!!!!!!!!!!!!!"!!I!!!!!</Property>
 				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
@@ -49,5 +40,86 @@
 				<Property Name="NI.ClassItem.State" Type="Int">1107820544</Property>
 			</Item>
 		</Item>
+		<Item Name="InitializePort.vi" Type="VI" URL="../InitializePort.vi">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%P!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$J!=!!?!!!;'%^T9WFM&lt;X.D&lt;X"F1WRB=X-O&lt;(:D&lt;'&amp;T=Q!!&amp;%^T9WFM&lt;X.D&lt;X"F1WRB=X-A&lt;X6U!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!$B!=!!?!!!;'%^T9WFM&lt;X.D&lt;X"F1WRB=X-O&lt;(:D&lt;'&amp;T=Q!!%U^T9WFM&lt;X.D&lt;X"F1WRB=X-A;7Y!6!$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"!!%!!=#!!"Y!!!.#!!!!!!!!!!!!!#.#Q!!!!!!!!!!!!!!!!!!!!!!!!A!!!!!!!!!!!!!!*!!!!!!!1!)!!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1342710272</Property>
+		</Item>
+	</Item>
+	<Item Name="Auto Setup Osciloscope.vi" Type="VI" URL="../Auto Setup Osciloscope.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%P!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$J!=!!?!!!;'%^T9WFM&lt;X.D&lt;X"F1WRB=X-O&lt;(:D&lt;'&amp;T=Q!!&amp;%^T9WFM&lt;X.D&lt;X"F1WRB=X-A&lt;X6U!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!$B!=!!?!!!;'%^T9WFM&lt;X.D&lt;X"F1WRB=X-O&lt;(:D&lt;'&amp;T=Q!!%U^T9WFM&lt;X.D&lt;X"F1WRB=X-A;7Y!6!$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"!!%!!=#!!"Y!!!.#!!!!!!!!!!!!!#.#Q!!!!!!!!!!!!!!!!!!!!!!!!A!!!!!!!!!!!!!!*!!!!!!!1!)!!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1342710272</Property>
+	</Item>
+	<Item Name="Close Osciloscope.vi" Type="VI" URL="../Close Osciloscope.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%P!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$J!=!!?!!!;'%^T9WFM&lt;X.D&lt;X"F1WRB=X-O&lt;(:D&lt;'&amp;T=Q!!&amp;%^T9WFM&lt;X.D&lt;X"F1WRB=X-A&lt;X6U!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!$B!=!!?!!!;'%^T9WFM&lt;X.D&lt;X"F1WRB=X-O&lt;(:D&lt;'&amp;T=Q!!%U^T9WFM&lt;X.D&lt;X"F1WRB=X-A;7Y!6!$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"!!%!!=#!!"Y!!!.#!!!!!!!!!!!!!#.#Q!!!!!!!!!!!!!!!!!!!!!!!!A!!!!!!!!!!!!!!*!!!!!!!1!)!!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1342710272</Property>
+	</Item>
+	<Item Name="Configurate Channel Osciloscope.vi" Type="VI" URL="../Configurate Channel Osciloscope.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!*J!!!!%1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$J!=!!?!!!;'%^T9WFM&lt;X.D&lt;X"F1WRB=X-O&lt;(:D&lt;'&amp;T=Q!!&amp;%^T9WFM&lt;X.D&lt;X"F1WRB=X-A&lt;X6U!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!"J!)26&amp;&lt;G&amp;C&lt;'5A1WBB&lt;GZF&lt;#!I6(*V:3E!(5!$!":$;'&amp;O&lt;G6M)#AQ/C"$;'&amp;O&lt;G6M)$%J!!!@1!-!'6:F=H2J9W&amp;M)%.P&gt;8"M;7ZH)#AR/C"%1SE!)5!$!"N1=G^C:3""&gt;(2F&lt;H6B&gt;'FP&lt;C!I-4![)$%Q7#E!)5!+!"N7:8*U;7.B&lt;#"397ZH:3!I-4!O-#"7,W2J&gt;CE!)5!+!"J7:8*U;7.B&lt;#"0:G:T:81A+$!O-#"E;8:T+1!!)U!$!"R#97ZE&gt;WFE&gt;'AA+$![)%V"7#"#97ZE&gt;WFE&gt;'AJ!!"?!0%!!!!!!!!!!2^$&lt;WZG;7&gt;V=G&amp;U:5.B;'ZO:7QN,7.M&gt;8.U:8)O9X2M!$:!5!!(!!=!#!!*!!I!#Q!-!!U=1W^O:GFH&gt;8*B&gt;'5A1WBB&lt;GZF&lt;#UN9WRV=X2F=A!!/%"Q!"Y!!"I94X.D;7RP=W.P='6$&lt;'&amp;T=SZM&gt;G.M98.T!!!44X.D;7RP=W.P='6$&lt;'&amp;T=S"J&lt;A"5!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!%!!Y!$Q)!!(A!!!U)!!!!!!!!!!!!!)U,!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!!!!!!)!!!!E!!!!!!"!"!!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1342710272</Property>
+	</Item>
+	<Item Name="Initialize Osciloscope.vi" Type="VI" URL="../Initialize Osciloscope.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!)-!!!!%1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$J!=!!?!!!;'%^T9WFM&lt;X.D&lt;X"F1WRB=X-O&lt;(:D&lt;'&amp;T=Q!!&amp;%^T9WFM&lt;X.D&lt;X"F1WRB=X-A&lt;X6U!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!!^!"Q!*1G&amp;V:#"3982F!!V!"A!'5'&amp;S;82Z!!!01!9!#6.U&lt;X!A1GFU=Q!41!9!$%:M&lt;X=A1W^O&gt;(*P&lt;!!!*%"1!!1!"Q!)!!E!#B24:8*J97QA1W^O:GFH&gt;8*B&gt;'FP&lt;A!!'%!B%EF%)&amp;&amp;V:8*Z0S!I6$IA776T+1!!&amp;%!B$V*F=W6U0S!I6$IA776T+1"0!0%!!!!!!!!!!3**&lt;GFU;7&amp;M;8JF4X.D;7RP=W.P='5N,7.M&gt;8.U:8)O9X2M!#2!5!!$!!M!$!!.%UFO;82J97RJ?G5N,7.M&gt;8.U:8)!/%"Q!"Y!!"I94X.D;7RP=W.P='6$&lt;'&amp;T=SZM&gt;G.M98.T!!!44X.D;7RP=W.P='6$&lt;'&amp;T=S"J&lt;A"5!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!%!!Y!$Q)!!(A!!!U)!!!!!!!!!!!!!)U,!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!!!!!!)!!!!E!!!!!!"!"!!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1342710272</Property>
+	</Item>
+	<Item Name="Read 2 measurement Channels Osciloscope.vi" Type="VI" URL="../Read 2 measurement Channels Osciloscope.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!)V!!!!%!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!!Z!-0````]&amp;67ZJ&gt;(-!%5!+!!N.:7&amp;T&gt;8*F&lt;76O&gt;!!`!0%!!!!!!!!!!223:7&amp;E-E.I97ZO&lt;'6T4X6U,G.U&lt;!!C1&amp;!!!A!&amp;!!945G6B:#!S)'.I97ZO:7RT)%^V&gt;!![1(!!(A!!'BB0=W.J&lt;'^T9W^Q:5.M98.T,GRW9WRB=X-!!"20=W.J&lt;'^T9W^Q:5.M98.T)'^V&gt;!!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!@1!-!'%.I97ZO:7QA-3!I-4IA1WBB&lt;GZF&lt;#!R+1!!(U!$!"B$;'&amp;O&lt;G6M)$)A+$)[)%.I97ZO:7QA-CE!!#&amp;!!Q!&lt;476B=X6S:7VF&lt;H1A6(FQ:3!I-$IA5'BB=W5J!%E!]1!!!!!!!!!"(&amp;*F971S9WBB&lt;GZF&lt;(.*&lt;CUN9WRV=X2F=CZD&gt;'Q!*%"1!!-!#A!,!!Q35G6B:#!S)'.I97ZO:7RT)%FO!!!Y1(!!(A!!'BB0=W.J&lt;'^T9W^Q:5.M98.T,GRW9WRB=X-!!".0=W.J&lt;'^T9W^Q:5.M98.T)'FO!&amp;1!]!!-!!-!"!!(!!A!"!!%!!1!"!!*!!1!$1!/!A!!?!!!$1A!!!!!!!!*!!!!D1M!!!!!!!!!!!!!!!!!!!!!!!!)!!!!!!!!!!A!!!#1!!!!!!%!$Q!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1342710272</Property>
+	</Item>
+	<Item Name="Read Measurement Osciloscope.vi" Type="VI" URL="../Read Measurement Osciloscope.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!)F!!!!$Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!!Z!-0````]&amp;67ZJ&gt;(-!%5!+!!N.:7&amp;T&gt;8*F&lt;76O&gt;!"-!0%!!!!!!!!!!2^3:7&amp;E476B=X6S:7VF&lt;H20&gt;81N,7.M&gt;8.U:8)O9X2M!#2!5!!#!!5!"B23:7&amp;E)'VF98.V=G6N:7ZU)%^V&gt;!!!/E"Q!"Y!!"I94X.D;7RP=W.P='6$&lt;'&amp;T=SZM&gt;G.M98.T!!!54X.D;7RP=W.P='6$&lt;'&amp;T=S"P&gt;81!!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!(5!$!":$;'&amp;O&lt;G6M)#AR/C"$;'&amp;O&lt;G6M)$%J!!!F1!-!(UVF98.V=G6N:7ZU)&amp;2Z='5A+$![)%:S:8&amp;V:7ZD?3E!31$R!!!!!!!!!!%?5G6B:%VF98.V=G6N:7ZU37YN,7.M&gt;8.U:8)O9X2M!#*!5!!#!!I!#R.3:7&amp;E)%VF98.V=G6N:7ZU)%FO!$B!=!!?!!!;'%^T9WFM&lt;X.D&lt;X"F1WRB=X-O&lt;(:D&lt;'&amp;T=Q!!%U^T9WFM&lt;X.D&lt;X"F1WRB=X-A;7Y!6!$Q!!Q!!Q!%!!=!#!!%!!1!"!!%!!E!"!!-!!U#!!"Y!!!.#!!!!!!!!!E!!!#.#Q!!!!!!!!!!!!!!!!!!!!!!!!A!!!!!!!!!#!!!!*!!!!!!!1!/!!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1342710272</Property>
+	</Item>
+	<Item Name="Read Waveform Osciloscope.vi" Type="VI" URL="../Read Waveform Osciloscope.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'V!!!!$1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!"2!6!!$$6&gt;B&gt;G6G&lt;X*N)%2B&gt;'%!/E"Q!"Y!!"I94X.D;7RP=W.P='6$&lt;'&amp;T=SZM&gt;G.M98.T!!!54X.D;7RP=W.P='6$&lt;'&amp;T=S"P&gt;81!!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!'U!'!"64&lt;X6S9W5A+$![)%.I97ZO:7QA-3E!'5!(!"*5;7VF&lt;X6U)#AR-$!Q-#"N=SE!!$Y!]1!!!!!!!!!"'6*F972898:F:G^S&lt;3UN9WRV=X2F=CZD&gt;'Q!(%"1!!)!#!!*$&amp;*F972898:F:G^S&lt;1!!/%"Q!"Y!!"I94X.D;7RP=W.P='6$&lt;'&amp;T=SZM&gt;G.M98.T!!!44X.D;7RP=W.P='6$&lt;'&amp;T=S"J&lt;A"5!0!!$!!$!!1!"1!'!!1!"!!%!!1!"Q!%!!I!#Q)!!(A!!!U)!!!!!!!!#1!!!)U,!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!!!!!!)!!!!E!!!!!!"!!Q!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1342710272</Property>
+	</Item>
+	<Item Name="Reset Osciloscope.vi" Type="VI" URL="../Reset Osciloscope.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%P!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$J!=!!?!!!;'%^T9WFM&lt;X.D&lt;X"F1WRB=X-O&lt;(:D&lt;'&amp;T=Q!!&amp;%^T9WFM&lt;X.D&lt;X"F1WRB=X-A&lt;X6U!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!$B!=!!?!!!;'%^T9WFM&lt;X.D&lt;X"F1WRB=X-O&lt;(:D&lt;'&amp;T=Q!!%U^T9WFM&lt;X.D&lt;X"F1WRB=X-A;7Y!6!$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"!!%!!=#!!"Y!!!.#!!!!!!!!!!!!!#.#Q!!!!!!!!!!!!!!!!!!!!!!!!A!!!!!!!!!!!!!!*!!!!!!!1!)!!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1342710272</Property>
 	</Item>
 </LVClass>

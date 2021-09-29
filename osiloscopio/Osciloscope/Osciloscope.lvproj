@@ -1,6 +1,7 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="20008000">
 	<Item Name="My Computer" Type="My Computer">
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.tcp.enabled" Type="Bool">false</Property>
@@ -16,7 +17,15 @@
 		<Item Name="Osciloscope Module" Type="Folder">
 			<Item Name="Osciloscope.lvlib" Type="Library" URL="../Libraries/Osciloscope/Osciloscope.lvlib"/>
 		</Item>
-		<Item Name="TypeDefs" Type="Folder"/>
+		<Item Name="TypeDefs" Type="Folder">
+			<Item Name="ConfigurateCahnnel--cluster.ctl" Type="VI" URL="../TypeDefs/ConfigurateCahnnel--cluster.ctl"/>
+			<Item Name="ReadMeasurementOut--cluster.ctl" Type="VI" URL="../TypeDefs/ReadMeasurementOut--cluster.ctl"/>
+			<Item Name="InitializeOsciloscope--cluster.ctl" Type="VI" URL="../TypeDefs/InitializeOsciloscope--cluster.ctl"/>
+			<Item Name="Read2channelsIn--cluster.ctl" Type="VI" URL="../TypeDefs/Read2channelsIn--cluster.ctl"/>
+			<Item Name="Read2ChannlesOut.ctl" Type="VI" URL="../TypeDefs/Read2ChannlesOut.ctl"/>
+			<Item Name="ReadWaveform--cluster.ctl" Type="VI" URL="../TypeDefs/ReadWaveform--cluster.ctl"/>
+			<Item Name="ReadMeasurementIn--cluster.ctl" Type="VI" URL="../TypeDefs/ReadMeasurementIn--cluster.ctl"/>
+		</Item>
 		<Item Name="Test Osciloscope API.vi" Type="VI" URL="../Libraries/Osciloscope/Test Osciloscope API.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
