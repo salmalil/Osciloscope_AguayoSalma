@@ -11,8 +11,7 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Class" Type="Folder">
-			<Item Name="OsciloscopeClass" Type="Folder"/>
-			<Item Name="Tektroniks" Type="Folder"/>
+			<Item Name="OsciloscopeClass.lvclass" Type="LVClass" URL="../Class/OsciloscopeClass/OsciloscopeClass.lvclass"/>
 		</Item>
 		<Item Name="Osciloscope Module" Type="Folder">
 			<Item Name="Osciloscope.lvlib" Type="Library" URL="../Libraries/Osciloscope/Osciloscope.lvlib"/>
