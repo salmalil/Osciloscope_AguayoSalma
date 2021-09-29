@@ -17,6 +17,19 @@
 				<Item Name="Hide Panel Argument--cluster.ctl" Type="VI" URL="../Hide Panel Argument--cluster.ctl"/>
 				<Item Name="Show Diagram Argument--cluster.ctl" Type="VI" URL="../Show Diagram Argument--cluster.ctl"/>
 				<Item Name="Get Module Execution Status Argument--cluster.ctl" Type="VI" URL="../Get Module Execution Status Argument--cluster.ctl"/>
+				<Item Name="Set Com Port Argument--cluster.ctl" Type="VI" URL="../Set Com Port Argument--cluster.ctl"/>
+				<Item Name="Inizializate Argument--cluster.ctl" Type="VI" URL="../Inizializate Argument--cluster.ctl"/>
+				<Item Name="Init Osciloscope Argument--cluster.ctl" Type="VI" URL="../Init Osciloscope Argument--cluster.ctl"/>
+				<Item Name="Close Osciloscope Argument--cluster.ctl" Type="VI" URL="../Close Osciloscope Argument--cluster.ctl"/>
+				<Item Name="Auto Setup Osciloscope Argument--cluster.ctl" Type="VI" URL="../Auto Setup Osciloscope Argument--cluster.ctl"/>
+				<Item Name="Configure Channel Argument--cluster.ctl" Type="VI" URL="../Configure Channel Argument--cluster.ctl"/>
+				<Item Name="Reset Osciloscope Argument--cluster.ctl" Type="VI" URL="../Reset Osciloscope Argument--cluster.ctl"/>
+				<Item Name="Read Waveform Osciloscope Argument--cluster.ctl" Type="VI" URL="../Read Waveform Osciloscope Argument--cluster.ctl"/>
+				<Item Name="Read Waveform Osciloscope (Reply Payload)--cluster.ctl" Type="VI" URL="../Read Waveform Osciloscope (Reply Payload)--cluster.ctl"/>
+				<Item Name="Read Measurement Osciloscope Argument--cluster.ctl" Type="VI" URL="../Read Measurement Osciloscope Argument--cluster.ctl"/>
+				<Item Name="Read Measurement Osciloscope (Reply Payload)--cluster.ctl" Type="VI" URL="../Read Measurement Osciloscope (Reply Payload)--cluster.ctl"/>
+				<Item Name="Read 2 Measurement Channels Osciloscope Argument--cluster.ctl" Type="VI" URL="../Read 2 Measurement Channels Osciloscope Argument--cluster.ctl"/>
+				<Item Name="Read 2 Measurement Channels Osciloscope (Reply Payload)--cluster.ctl" Type="VI" URL="../Read 2 Measurement Channels Osciloscope (Reply Payload)--cluster.ctl"/>
 			</Item>
 			<Item Name="Broadcast" Type="Folder">
 				<Item Name="Did Init Argument--cluster.ctl" Type="VI" URL="../Did Init Argument--cluster.ctl"/>
@@ -29,6 +42,16 @@
 			<Item Name="Hide Panel.vi" Type="VI" URL="../Hide Panel.vi"/>
 			<Item Name="Stop Module.vi" Type="VI" URL="../Stop Module.vi"/>
 			<Item Name="Show Diagram.vi" Type="VI" URL="../Show Diagram.vi"/>
+			<Item Name="Set Com Port.vi" Type="VI" URL="../Set Com Port.vi"/>
+			<Item Name="Inizializate.vi" Type="VI" URL="../Inizializate.vi"/>
+			<Item Name="Init Osciloscope.vi" Type="VI" URL="../Init Osciloscope.vi"/>
+			<Item Name="Close Osciloscope.vi" Type="VI" URL="../Close Osciloscope.vi"/>
+			<Item Name="Auto Setup Osciloscope.vi" Type="VI" URL="../Auto Setup Osciloscope.vi"/>
+			<Item Name="Configure Channel.vi" Type="VI" URL="../Configure Channel.vi"/>
+			<Item Name="Reset Osciloscope.vi" Type="VI" URL="../Reset Osciloscope.vi"/>
+			<Item Name="Read Waveform Osciloscope.vi" Type="VI" URL="../Read Waveform Osciloscope.vi"/>
+			<Item Name="Read Measurement Osciloscope.vi" Type="VI" URL="../Read Measurement Osciloscope.vi"/>
+			<Item Name="Read 2 Measurement Channels Osciloscope.vi" Type="VI" URL="../Read 2 Measurement Channels Osciloscope.vi"/>
 		</Item>
 		<Item Name="Start Module.vi" Type="VI" URL="../Start Module.vi"/>
 		<Item Name="Synchronize Module Events.vi" Type="VI" URL="../Synchronize Module Events.vi"/>

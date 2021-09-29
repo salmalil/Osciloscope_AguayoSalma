@@ -27,6 +27,8 @@
 			<Item Name="ReadMeasurementIn--cluster.ctl" Type="VI" URL="../TypeDefs/ReadMeasurementIn--cluster.ctl"/>
 		</Item>
 		<Item Name="Test Osciloscope API.vi" Type="VI" URL="../Libraries/Osciloscope/Test Osciloscope API.vi"/>
+		<Item Name="Set Class Instance.vi" Type="VI" URL="../Set Class Instance.vi"/>
+		<Item Name="Get Class Instance.vi" Type="VI" URL="../Get Class Instance.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Acquire Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Acquire Semaphore.vi"/>
@@ -95,6 +97,7 @@
 				<Item Name="Validate Semaphore Size.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Validate Semaphore Size.vi"/>
 				<Item Name="Wait at Rendezvous.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/rendezvs.llb/Wait at Rendezvous.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
+				<Item Name="Get LV Class Name.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Name.vi"/>
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
