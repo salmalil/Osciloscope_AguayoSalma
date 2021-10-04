@@ -14,6 +14,7 @@
 		<Item Name="Class" Type="Folder">
 			<Item Name="OsciloscopeClass.lvclass" Type="LVClass" URL="../Class/OsciloscopeClass/OsciloscopeClass.lvclass"/>
 			<Item Name="Tektronicks.lvclass" Type="LVClass" URL="../Class/Tektroniks/Tektronicks.lvclass"/>
+			<Item Name="EDU-X 1002A.lvclass" Type="LVClass" URL="../Class/EDU-X 1002A/EDU-X 1002A.lvclass"/>
 		</Item>
 		<Item Name="Osciloscope Module" Type="Folder">
 			<Item Name="Osciloscope.lvlib" Type="Library" URL="../Libraries/Osciloscope/Osciloscope.lvlib"/>
@@ -99,10 +100,14 @@
 				<Item Name="Wait at Rendezvous.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/rendezvs.llb/Wait at Rendezvous.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 				<Item Name="Get LV Class Name.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Name.vi"/>
+				<Item Name="NI_MABase.lvlib" Type="Library" URL="/&lt;vilib&gt;/measure/NI_MABase.lvlib"/>
+				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
 			</Item>
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="Tektronix TDS 200 1000 2000 Series.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Tektronix TDS 200 1000 2000 Series/Tektronix TDS 200 1000 2000 Series.lvlib"/>
+				<Item Name="Agilent 2000 3000 X-Series.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Agilent 2000 3000 X-Series/Agilent 2000 3000 X-Series.lvlib"/>
 			</Item>
+			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
