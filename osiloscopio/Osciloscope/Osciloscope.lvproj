@@ -12,9 +12,11 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Class" Type="Folder">
-			<Item Name="OsciloscopeClass.lvclass" Type="LVClass" URL="../Class/OsciloscopeClass/OsciloscopeClass.lvclass"/>
-			<Item Name="Tektronicks.lvclass" Type="LVClass" URL="../Class/Tektroniks/Tektronicks.lvclass"/>
-			<Item Name="EDU-X 1002A.lvclass" Type="LVClass" URL="../Class/EDU-X 1002A/EDU-X 1002A.lvclass"/>
+			<Item Name="Implementaciones" Type="Folder">
+				<Item Name="OsciloscopeClass.lvclass" Type="LVClass" URL="../Class/Implementaciones/OsciloscopeClass/OsciloscopeClass.lvclass"/>
+				<Item Name="Tektronicks.lvclass" Type="LVClass" URL="../Class/Implementaciones/Tektroniks/Tektronicks.lvclass"/>
+				<Item Name="EDU-X 1002A.lvclass" Type="LVClass" URL="../Class/Implementaciones/EDU-X 1002A/EDU-X 1002A.lvclass"/>
+			</Item>
 		</Item>
 		<Item Name="Osciloscope Module" Type="Folder">
 			<Item Name="Osciloscope.lvlib" Type="Library" URL="../Libraries/Osciloscope/Osciloscope.lvlib"/>
@@ -99,9 +101,13 @@
 				<Item Name="Validate Semaphore Size.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Validate Semaphore Size.vi"/>
 				<Item Name="Wait at Rendezvous.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/rendezvs.llb/Wait at Rendezvous.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
-				<Item Name="Get LV Class Name.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Name.vi"/>
 				<Item Name="NI_MABase.lvlib" Type="Library" URL="/&lt;vilib&gt;/measure/NI_MABase.lvlib"/>
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
+				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
+				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
+				<Item Name="List Directory and LLBs.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/List Directory and LLBs.vi"/>
+				<Item Name="Recursive File List.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Recursive File List.vi"/>
+				<Item Name="Get LV Class Default Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Default Value.vi"/>
 			</Item>
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="Tektronix TDS 200 1000 2000 Series.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Tektronix TDS 200 1000 2000 Series/Tektronix TDS 200 1000 2000 Series.lvlib"/>
